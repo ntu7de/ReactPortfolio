@@ -1,17 +1,13 @@
 import React from 'react'
 import '../styles/Root.css'
-import { Link } from "react-router-dom";
+import ResponsiveAppBar from '../ResponsiveAppBar'
 
 const Root = () => {
   return (
     <>
+        <ResponsiveAppBar />
         <h1>Hey!</h1>
-        <p>My name is Patrick Yuson. Welcome to my Portfolio App!</p>
-        <Link to={`projects`}>Projects</Link>
-        <br></br>
-        <Link to={`about`}>About</Link>
-        <br></br>
-        <Link to={`contact`}>Contact Me</Link>
+        <p>My name is <b>Patrick Yuson</b>. Welcome to my Portfolio App!</p>
     </>
   )
 }
