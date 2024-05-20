@@ -17,6 +17,9 @@ const Projects = () => {
                         <Typography variant="h5" color="#020826" component="div">
                             {project.name}
                         </Typography>
+                        <Typography variant='h7' component='div'>
+                            {project.date}
+                        </Typography>
                         <Typography variant="body2" color="text.secondary" sx={{ mt: 1.5 }}>
                             {project.description}
                         </Typography>
